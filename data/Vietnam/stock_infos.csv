@@ -1,0 +1,207 @@
+ticker,name,DOB,initial_volume,initial_price,current_volume,market_capital,exchange,category
+VCB,Ngân hàng TMCP Ngoại thương Việt Nam                        ,30/06/2009,112285426,50.0,4732516571,406996.4,HOSE,Banks
+VIC,Tập đoàn VINGROUP - CTCP                        ,19/09/2007,80000000,125.0,3813935561,242566.3,HOSE,Res/Com_Real_Estate
+VHM,CTCP Vinhomes                        ,17/05/2018,2679611550,92.5,4354367488,260826.6,HOSE,Res/Com_Real_Estate
+GAS,Tổng Công ty Khí Việt Nam - CTCP                        ,21/05/2012,1895000000,36.0,1913950000,227568.7,HOSE,Energy
+HPG,CTCP Tập đoàn Hòa Phát                        ,15/11/2007,132000000,110.0,5814785700,134030.8,HOSE,Materials
+VPB,Ngân hàng TMCP Việt Nam Thịnh Vượng                        ,17/08/2017,1332689035,39.0,4505692987,141253.5,HOSE,Banks
+NVL,CTCP Tập đoàn Đầu tư Địa ốc No Va                        ,28/12/2016,589369234,50.0,1949833809,160276.3,HOSE,Res/Com_Real_Estate
+VNM,CTCP Sữa Việt Nam                        ,19/01/2006,159000000,53.0,2089955445,158836.6,HOSE,Food_Beverage_and_Agriculture
+TCB,Ngân hàng TMCP Kỹ thương Việt Nam                        ,04/06/2018,1165530720,128.0,3510914798,136047.9,HOSE,Banks
+BID,Ngân hàng TMCP Đầu tư và Phát triển Việt Nam                        ,24/01/2014,2811202644,18.7,5058523816,201329.2,HOSE,Banks
+MSN,CTCP Tập đoàn Masan                        ,05/11/2009,476399820,36.0,1423724783,161877.5,HOSE,Food_Beverage_and_Agriculture
+CTG,Ngân hàng TMCP Công Thương Việt Nam                        ,16/07/2009,121211780,50.0,4805750609,136483.3,HOSE,Banks
+GVR,Tập đoàn Công nghiệp Cao su Việt Nam - CTCP,21/03/2018,99140960,13.0,4000000000,106600.0,HOSE,Materials_Industry
+MBB,Ngân hàng TMCP Quân Đội                        ,01/11/2011,730000000,13.8,3778321777,89357.3,HOSE,Banks
+VGI,Tổng Công ty cổ phần Đầu tư Quốc tế Viettel,25/09/2018,2243811200,15.0,3043811200,98010.7,UPCOM,Information_Technology
+MWG,CTCP Đầu tư Thế giới Di động                        ,14/07/2014,62723171,68.0,1463467713,107289.9,HOSE,Retails_and_Desci
+SAB,Tổng Công ty cổ phần Bia - Rượu - Nước giải khát Sài Gòn                        ,06/12/2016,641281186,110.0,641281186,120496.7,HOSE,Food_Beverage_and_Agriculture
+FPT,CTCP FPT                        ,13/12/2006,60810230,400.0,1097026572,94783.1,HOSE,Information_Technology
+BCM,Tổng Công ty Đầu tư và Phát triển Công nghiệp – CTCP,26/02/2018,1035000000,22.9,1035000000,94081.5,HOSE,Industry_Real_Estate
+ACB,Ngân hàng TMCP Á Châu                        ,21/11/2006,110004656,130.2,3377435094,82916.0,HOSE,Banks
+VRE,CTCP Vincom Retail                        ,06/11/2017,1901078733,40.6,2328818410,66138.4,HOSE,Res/Com_Real_Estate
+VJC,CTCP Hàng không Vietjet                        ,28/02/2017,300000000,90.0,541611334,66293.2,HOSE,Aviations
+BSR,CTCP Lọc hóa Dầu Bình Sơn                        ,01/03/2018,3100499616,22.4,3100499616,80923.0,UPCOM,Energy
+VIB,Ngân hàng TMCP Quốc tế Việt Nam                        ,09/01/2017,564442500,17.0,2107672945,52691.8,HOSE,Banks
+PLX,Tập đoàn Xăng Dầu Việt Nam                        ,21/04/2017,1293878081,43.2,1293878081,54666.3,HOSE,Energy
+TPB,Ngân hàng TMCP Tiên Phong                        ,19/04/2018,555000000,32.0,1581755495,44131.0,HOSE,Banks
+STB,Ngân hàng TMCP Sài Gòn Thương Tín                        ,12/07/2006,189947299,78.0,1885215716,46470.6,HOSE,Banks
+HDB,Ngân hàng TMCP Phát triển TPHCM                        ,05/01/2018,980999979,33.0,2007290642,52791.7,HOSE,Banks
+HVN,Tổng Công ty Hàng không Việt Nam - CTCP                        ,03/01/2017,1227533778,28.0,2214394174,37866.1,HOSE,Aviations
+BVH,Tập đoàn Bảo Việt                        ,26/06/2009,573026605,46.2,742322764,42609.3,HOSE,Insurance
+SHB,Ngân hàng TMCP Sài Gòn - Hà Nội                        ,20/04/2009,50000000,14.4,2672441924,41155.6,HOSE,Banks
+THD,CTCP Thaiholdings,19/06/2020,53900000,15.0,350000000,19670.0,HNX,Res/Com_Real_Estate
+DGC,CTCP Tập đoàn Hóa chất Đức Giang                        ,26/08/2014,33499366,30.0,371242073,37161.3,HOSE,Chemicals
+EIB,Ngân hàng TMCP Xuất nhập khẩu Việt Nam                        ,27/10/2009,876226900,28.0,1235522904,37683.4,HOSE,Banks
+MSB,Ngân hàng Thương mại cổ phần Hàng hải Việt Nam,23/12/2020,1175000000,15.0,1527500000,28946.1,HOSE,Banks
+SSI,CTCP Chứng khoán SSI                        ,15/12/2006,50000000,165.9,984750022,23584.8,HOSE,Financial_Services
+OCB,Ngân hàng Thương mại cổ phần Phương Đông,09/03/2021,1095906343,21.5,1369882863,23973.0,HOSE,Banks
+DIG,Tổng Công ty cổ phần Đầu tư Phát triển Xây dựng                        ,19/08/2009,60000000,55.0,499890962,18995.9,HOSE,Res/Com_Real_Estate
+KDH,CTCP Đầu tư và Kinh doanh Nhà Khang Điền                        ,01/02/2010,33200000,40.0,716829995,27024.5,HOSE,Res/Com_Real_Estate
+POW,Tổng Công ty Điện lực Dầu khí Việt Nam - CTCP                        ,06/03/2018,2341871600,14.9,2341871600,32434.9,HOSE,Utilities
+PDR,CTCP Phát triển Bất động sản Phát Đạt                        ,30/07/2010,130200000,36.0,671646219,37007.7,HOSE,Res/Com_Real_Estate
+DPM,Tổng Công ty Phân bón và Hóa chất Dầu khí - CTCP                        ,05/11/2007,380000000,100.0,386508640,21275.8,HOSE,Chemicals
+REE,CTCP Cơ Điện Lạnh                        ,28/07/2000,15000000,15.0,346399566,29623.7,HOSE,Utilities
+KBC,Tổng Công ty Phát triển Đô thị Kinh Bắc - CTCP                        ,18/12/2007,88000000,161.3,767604759,26597.5,HOSE,Industry_Real_Estate
+PNJ,CTCP Vàng bạc Đá quý Phú Nhuận                        ,23/03/2009,30000000,38.0,242612362,27754.9,HOSE,Retails_and_Desci
+GEX,Tổng Công ty cổ phần Thiết bị Điện Việt Nam,27/10/2015,155000000,21.2,851495793,20691.3,HOSE,Materials_and_Constructions
+DXG,CTCP Tập đoàn Đất Xanh                        ,22/12/2009,8000000,40.0,605781904,15795.8,HOSE,Res/Com_Real_Estate
+VGC,Tổng Công ty Viglacera - CTCP                        ,15/10/2015,264500000,10.6,448350000,30263.6,HOSE,Industry_Real_Estate
+DCM,CTCP Phân bón Dầu khí Cà Mau                        ,31/03/2015,529400000,14.5,529400000,19984.9,HOSE,Chemicals
+LPB,Ngân hàng TMCP Bưu điện Liên Việt                        ,05/10/2017,646000000,14.8,1503585993,23681.5,HOSE,Banks
+VHC,CTCP Vĩnh Hoàn                        ,24/12/2007,30000000,62.0,183376956,16577.3,HOSE,Fisheries_Industry
+NLG,CTCP Đầu tư Nam Long                        ,08/04/2013,95513523,27.0,382940013,16485.6,HOSE,Res/Com_Real_Estate
+IDC,Tổng Công ty IDICO – CTCP,24/11/2017,55305500,23.9,300000000,18600.0,HNX,Industry_Real_Estate
+GMD,CTCP Gemadept                        ,22/04/2002,19726840,42.5,301377957,15129.2,HOSE,Sea_Logistic_and_Shipping_Industry
+VCS,CTCP Vicostone                        ,17/12/2007,10000000,95.3,160000000,12272.0,HNX,Materials_and_Constructions
+QNS,CTCP Đường Quảng Ngãi                        ,20/12/2016,187549373,80.0,356939955,17275.9,UPCOM,Food_Beverage_and_Agriculture
+NVB,Ngân hàng TMCP Quốc Dân                        ,13/09/2010,100000000,12.1,410155587,10623.0,HNX,Banks
+KDC,CTCP Tập đoàn KIDO                        ,12/12/2005,25000000,59.0,223506664,16783.3,HOSE,Food_Beverage_and_Agriculture
+OIL,Tổng Công ty Dầu Việt Nam - CTCP,07/03/2018,1088425100,20.2,1088425100,15129.1,UPCOM,Energy
+VCI,CTCP Chứng khoán Bản Việt                        ,07/07/2017,103200000,48.0,435500000,12428.5,HOSE,Financial_Services
+HSG,CTCP Tập đoàn Hoa Sen                        ,05/12/2008,57038500,40.0,493481896,10116.4,HOSE,Materials
+VND,CTCP Chứng khoán VNDirect                        ,30/03/2010,45000000,42.0,1217844009,26427.2,HOSE,Financial_Services
+VPI,CTCP Đầu tư Văn Phú - INVEST,28/11/2017,160000000,27.6,219999780,14410.0,HOSE,Res/Com_Real_Estate
+VCG,Tổng Công ty cổ phần Xuất nhập khẩu và Xây dựng Việt Nam                        ,05/09/2008,149985150,39.8,405495692,9585.1,HOSE,Materials_and_Constructions
+FRT,CTCP Bán lẻ Kỹ thuật số FPT,26/04/2018,40000000,125.0,118472535,10544.1,HOSE,Retails_and_Desci
+DGW,CTCP Thế Giới Số                        ,03/08/2015,23583669,52.0,90752025,6443.4,HOSE,Retails_and_Desci
+ITA,CTCP Đầu tư và Công nghiệp Tân Tạo                        ,15/11/2006,45000000,54.0,938463607,6653.7,HOSE,Industry_Real_Estate
+HCM,CTCP Chứng khoán Thành phố Hồ Chí Minh                        ,19/05/2009,39463400,27.0,456371565,11933.2,HOSE,Financial_Services
+SBT,CTCP Thành Thành Công - Biên Hòa                        ,25/02/2008,44824172,30.0,629150895,11639.3,HOSE,Food_Beverage_and_Agriculture
+PVS,Tổng Công ty cổ phần Dịch vụ Kỹ thuật Dầu khí Việt Nam                        ,20/09/2007,100000000,127.9,477966290,13574.2,HNX,Energy
+HDG,CTCP Tập đoàn Hà Đô                        ,02/02/2010,13500000,88.0,244606578,13135.4,HOSE,Res/Com_Real_Estate
+TCH,CTCP Đầu tư Dịch vụ Tài chính Hoàng Huy,05/10/2016,329994572,15.0,668215843,7951.8,HOSE,Res/Com_Real_Estate
+CEO,CTCP Tập đoàn C.E.O                        ,29/09/2014,34311998,11.6,257339985,8054.7,HNX,Res/Com_Real_Estate
+VGT,Tập đoàn Dệt May Việt Nam                        ,03/01/2017,500000000,13.5,500000000,8900.0,UPCOM,Textile_Industry
+BWE,CTCP Nước - Môi trường Bình Dương                        ,20/07/2017,150000000,14.3,192920000,9665.3,HOSE,Utilities
+PHR,CTCP Cao su Phước Hòa                        ,18/08/2009,81300000,36.0,135499198,9579.8,HOSE,Materials_Industry
+HAG,CTCP Hoàng Anh Gia Lai                        ,22/12/2008,179814501,40.0,927467947,12010.7,HOSE,Res/Com_Real_Estate
+PC1,CTCP Xây lắp Điện I,17/11/2016,75262914,46.0,235159649,9077.2,HOSE,Utilities
+SJS,CTCP Đầu tư Phát triển Đô thị và Khu công nghiệp Sông Đà                        ,06/07/2006,5000000,100.0,112939420,8029.8,HOSE,Res/Com_Real_Estate
+BCG,CTCP Bamboo Capital,16/07/2015,40700000,15.0,503305437,7700.6,HOSE,Materials_and_Constructions
+PVD,Tổng Công ty cổ phần Khoan và Dịch vụ khoan Dầu khí                        ,05/12/2006,68000000,130.0,505766810,10924.6,HOSE,Energy
+TVN,Tổng Công ty Thép Việt Nam - CTCP                        ,18/01/2016,678000000,10.0,678000000,5763.0,UPCOM,Materials
+HPX,CTCP Đầu tư Hải Phát,24/07/2018,150000000,26.8,304168581,7938.8,HOSE,Res/Com_Real_Estate
+NAB,Ngân hàng TMCP Nam Á                        ,09/10/2020,389005328,16.0,456446843,6664.1,UPCOM,Banks
+NKG,CTCP Thép Nam Kim                        ,14/01/2011,23000000,25.0,263277806,5542.0,HOSE,Materials
+HNG,CTCP Nông nghiệp Quốc tế Hoàng Anh Gia Lai                        ,20/07/2015,708143895,28.0,1108553895,7427.3,HOSE,Food_Beverage_and_Agriculture
+MBS,CTCP Chứng khoán MB                        ,28/03/2016,122124280,10.0,267618324,5165.0,HNX,Financial_Services
+HUT,CTCP Tasco                        ,11/04/2008,5500000,27.6,268631965,7656.0,HNX,Materials_and_Constructions
+QTP,CTCP Nhiệt điện Quảng Ninh                        ,16/03/2017,450000000,11.4,450000000,7425.0,UPCOM,Utilities
+KOS,CTCP KOSY,08/12/2017,41500000,11.3,216481335,7327.9,HOSE,Industry_Real_Estate
+ABB,Ngân hàng Thương mại cổ phần An Bình                        ,28/12/2020,571311355,15.0,571311355,6627.2,UPCOM,Banks
+FTS,CTCP Chứng khoán FPT                        ,13/01/2017,90343727,18.0,147567297,5755.1,HOSE,Financial_Services
+HT1,CTCP Xi măng Hà Tiên 1                        ,13/11/2007,87000000,70.0,381493911,6085.6,HOSE,Materials_and_Constructions
+SGP,CTCP Cảng Sài Gòn                        ,25/04/2016,216294961,11.5,216294961,4455.7,UPCOM,Sea_Logistic_and_Shipping_Industry
+CII,CTCP Đầu tư Hạ tầng Kỹ thuật Thành phố Hồ Chí Minh                        ,18/05/2006,30000000,50.0,284012369,6475.5,HOSE,Res/Com_Real_Estate
+PVT,Tổng Công ty cổ phần Vận tải Dầu khí                        ,10/12/2007,72000000,120.0,323651246,7185.1,HOSE,Sea_Logistic_and_Shipping_Industry
+GEG,CTCP Điện Gia Lai,21/03/2017,74490339,20.0,321936902,6889.4,HOSE,Utilities
+CMG,CTCP Tập đoàn Công nghệ CMC                        ,22/01/2010,63536267,35.0,109157103,6708.3,HOSE,Information_Technology
+NT2,CTCP Điện lực Dầu khí Nhơn Trạch 2                        ,22/01/2010,256000000,0.0,287876029,7369.6,HOSE,Utilities
+HDC,CTCP Phát triển Nhà Bà Rịa - Vũng Tàu                        ,08/10/2007,8128000,70.0,108085693,5912.3,HOSE,Res/Com_Real_Estate
+CRE,CTCP Bất động sản Thế Kỷ                        ,05/09/2018,50000000,50.0,485758958,3326.4,HOSE,Res/Com_Real_Estate
+SHS,CTCP Chứng khoán Sài Gòn - Hà Nội                        ,25/06/2009,41062996,39.6,325265027,4261.0,HNX,Financial_Services
+SCR,CTCP Địa ốc Sài Gòn Thương Tín                        ,09/11/2010,100000000,26.1,366356303,4323.0,HOSE,Res/Com_Real_Estate
+PPC,CTCP Nhiệt điện Phả Lại                        ,19/05/2006,310700000,36.3,310074228,5520.0,HOSE,Utilities
+IDI,CTCP Đầu tư và Phát triển Đa Quốc Gia - IDI                        ,30/06/2011,38000000,18.0,227644608,4575.7,HOSE,Fisheries_Industry
+SZC,CTCP Sonadezi Châu Đức,31/01/2019,100000000,12.5,100000000,5450.0,HOSE,Industry_Real_Estate
+ANV,CTCP Nam Việt                        ,07/12/2007,66000000,117.0,126750125,6586.1,HOSE,Fisheries_Industry
+DHC,CTCP Đông Hải Bến Tre                        ,23/07/2009,8000000,17.4,69994423,4269.7,HOSE,Materials
+L14,CTCP Licogi 14,13/09/2011,2830000,11.0,26834641,2871.3,HNX,Materials_and_Constructions
+PTB,CTCP Phú Tài,22/07/2011,8599760,16.0,65498143,4470.1,HOSE,Materials_Industry
+VSC,CTCP Container Việt Nam                        ,09/01/2008,8037334,124.0,121269397,4450.6,HOSE,Sea_Logistic_and_Shipping_Industry
+PAN,CTCP Tập đoàn Pan                        ,22/12/2006,3200000,59.5,201788920,5216.4,HOSE,Food_Beverage_and_Agriculture
+HBC,CTCP Tập đoàn Xây dựng Hòa Bình                        ,27/12/2006,5639990,103.0,245654354,4716.6,HOSE,Materials_and_Constructions
+TCM,CTCP Dệt may - Đầu tư - Thương mại Thành Công                        ,15/10/2007,18982497,45.0,81846227,3687.6,HOSE,Textile_Industry
+ASM,CTCP Tập đoàn Sao Mai                        ,18/01/2010,9912600,38.0,336526752,5098.4,HOSE,Fisheries_Industry
+BMP,CTCP Nhựa Bình Minh                        ,11/07/2006,10718000,67.0,81259014,5321.0,HOSE,Materials_Industry
+DVN,Tổng Công ty Dược Việt Nam - CTCP                        ,19/05/2017,237000000,10.4,237000000,4479.3,UPCOM,HealthCare
+OGC,CTCP Tập đoàn Đại Dương                        ,04/05/2010,250000000,30.0,300000000,4095.0,HOSE,Res/Com_Real_Estate
+SAM,CTCP SAM HOLDINGS                        ,28/07/2000,18000000,16.0,365353065,4658.3,HOSE,Res/Com_Real_Estate
+IJC,CTCP Phát triển Hạ tầng Kỹ thuật                        ,19/04/2010,54838905,30.0,217097323,4917.3,HOSE,Materials_and_Constructions
+AAA,CTCP Nhựa An Phát Xanh                        ,15/07/2010,9900000,48.7,382274496,4549.1,HOSE,Materials_Industry
+MSH,CTCP May Sông Hồng,28/11/2018,47628000,45.0,75014100,3154.3,HOSE,Textile_Industry
+VPG,CTCP Đầu tư Thương mại Xuất nhập khẩu Việt Phát,18/01/2018,20000000,11.5,80198336,2245.6,HOSE,Materials
+PET,Tổng Công ty cổ phần Dịch vụ Tổng hợp Dầu khí                        ,12/09/2007,25530000,60.0,90450124,3853.2,HOSE,Retails_and_Desci
+CTD,CTCP Xây dựng Coteccons                        ,20/01/2010,18450000,95.0,79121688,5503.6,HOSE,Materials_and_Constructions
+FMC,CTCP Thực phẩm Sao Ta                        ,07/12/2006,6000000,66.0,65424149,3289.9,HOSE,Fisheries_Industry
+VIX,CTCP Chứng khoán VIX                        ,29/12/2009,30000000,28.3,549190458,7359.2,HOSE,Financial_Services
+BMI,Tổng Công ty cổ phần Bảo Minh                        ,28/11/2006,43400000,74.1,109623985,3266.8,HOSE,Insurance
+TDM,CTCP Nước Thủ Dầu Một                        ,04/04/2016,30000000,10.0,100000000,3905.0,HOSE,Utilities
+MIG,Tổng Công ty cổ phần Bảo hiểm Quân Đội                        ,05/05/2017,80000000,10.0,164450000,3733.0,HOSE,Insurance
+TTF,CTCP Tập đoàn Kỹ nghệ gỗ Trường Thành                        ,18/02/2008,15000000,80.0,393548302,3097.2,HOSE,Materials_Industry
+HTN,CTCP Hưng Thịnh Incons,12/11/2018,25000000,23.3,89116411,3212.6,HOSE,Materials_and_Constructions
+HAH,CTCP Vận tải và Xếp dỡ Hải An                        ,11/03/2015,23196232,40.0,68295817,4405.1,HOSE,Sea_Logistic_and_Shipping_Industry
+DPG,CTCP Đạt Phương,12/01/2017,6587652,31.0,62999554,2898.0,HOSE,Materials_and_Constructions
+DRC,CTCP Cao su Đà Nẵng                        ,29/12/2006,9247500,95.0,118792605,3611.3,HOSE,Materials_Industry
+TVS,CTCP Chứng khoán Thiên Việt                        ,15/01/2015,43000000,15.5,107075184,3426.4,HOSE,Financial_Services
+APH,CTCP Tập đoàn An Phát Holdings,28/07/2020,132562459,41.5,243884268,3207.1,HOSE,Chemicals
+GIL,CTCP Sản xuất Kinh doanh và Xuất nhập khẩu Bình Thạnh                        ,02/01/2002,4550000,38.0,60000000,3114.0,HOSE,Textile_Industry
+DPR,CTCP Cao su Đồng Phú                        ,30/11/2007,40000000,100.0,43000000,3276.6,HOSE,Materials_Industry
+DDV,CTCP DAP - VINACHEM,10/06/2015,146109900,0.0,146109900,2893.0,UPCOM,Chemicals
+LDG,CTCP Đầu tư LDG,12/08/2015,75000000,14.0,240212451,2546.3,HOSE,Industry_Real_Estate
+DBC,CTCP Tập đoàn Dabaco Việt Nam                        ,18/03/2008,7000000,24.2,242001859,6969.7,HOSE,Food_Beverage_and_Agriculture
+DBD,CTCP Dược - Trang thiết bị Y tế Bình Định                        ,16/01/2017,52379000,25.0,74883559,3141.4,HOSE,HealthCare
+AGG,CTCP Đầu tư và Phát triển Bất động sản An Gia,09/01/2020,75000000,25.0,111713195,4077.5,HOSE,Res/Com_Real_Estate
+QCG,CTCP Quốc Cường Gia Lai                        ,09/08/2010,60157495,42.5,275129310,2256.1,HOSE,Res/Com_Real_Estate
+AGR,CTCP Chứng khoán Agribank                        ,10/12/2009,120000000,32.0,212000000,2660.6,HOSE,Financial_Services
+LTG,CTCP Tập đoàn Lộc Trời,24/07/2017,67161150,55.0,80593340,2925.5,UPCOM,Food_Beverage_and_Agriculture
+FCN,CTCP FECON,24/07/2012,13805162,24.0,157439005,2330.1,HOSE,Materials_and_Constructions
+TNG,CTCP Đầu tư và Thương mại TNG                        ,22/11/2007,5430000,71.0,92698779,2447.2,HNX,Textile_Industry
+TCD,CTCP Đầu tư Phát triển Công nghiệp và Vận tải                        ,26/05/2017,32485000,16.0,224418304,3007.2,HOSE,Materials_and_Constructions
+POM,CTCP Thép Pomina                        ,20/04/2010,163000000,40.0,277410756,2091.9,HOSE,Materials
+KSB,CTCP Khoáng sản và Xây dựng Bình Dương                        ,20/01/2010,10700000,35.0,76631202,2053.7,HOSE,Materials_Industry
+HQC,CTCP Tư vấn Thương mại Dịch vụ Địa Ốc Hoàng Quân                        ,20/10/2010,40000000,38.0,476600000,2306.7,HOSE,Res/Com_Real_Estate
+FIT,CTCP Tập đoàn F.I.T                        ,26/07/2013,15000000,11.0,339933034,2369.3,HOSE,Res/Com_Real_Estate
+VDS,CTCP Chứng khoán Rồng Việt                        ,25/05/2010,33000000,19.6,105104665,1413.7,HOSE,Financial_Services
+PLC,Tổng Công ty Hóa dầu Petrolimex - CTCP                        ,27/12/2006,15000000,68.6,80798839,2262.4,HNX,Chemicals
+LCG,CTCP Licogi 16                        ,18/11/2008,13600000,60.0,189645306,1962.1,HOSE,Materials_and_Constructions
+CTS,CTCP Chứng khoán Ngân hàng Công thương Việt Nam                        ,31/07/2009,78993400,31.1,114946811,2138.0,HOSE,Financial_Services
+HHS,CTCP Đầu tư Dịch vụ Hoàng Huy                        ,15/02/2012,10000000,35.0,321448153,2083.0,HOSE,Retails_and_Desci
+TV2,CTCP Tư vấn Xây dựng Điện 2                        ,13/10/2009,4439000,33.0,45018141,2097.8,HOSE,Materials_and_Constructions
+TIG,CTCP Tập đoàn Đầu tư Thăng Long                        ,08/10/2010,15000000,28.0,130006834,1742.1,HNX,Res/Com_Real_Estate
+VOS,CTCP Vận tải Biển Việt Nam                        ,08/09/2010,140000000,18.0,140000000,2352.0,HOSE,Sea_Logistic_and_Shipping_Industry
+CSV,CTCP Hóa chất Cơ bản Miền Nam                        ,18/03/2015,44200000,0.0,44200000,2227.7,HOSE,Chemicals
+SHI,CTCP Quốc tế Sơn Hà                        ,30/12/2009,15000000,25.0,150187913,2252.8,HOSE,Retails_and_Desci
+PSH,CTCP Thương mại Đầu tư Dầu khí Nam Sông Hậu,24/06/2020,126196780,16.0,126196780,1394.5,HOSE,Energy
+LHG,CTCP Long Hậu                        ,23/03/2010,20000000,40.0,49983022,1969.9,HOSE,Industry_Real_Estate
+SGT,CTCP Công nghệ Viễn Thông Sài Gòn                        ,18/01/2008,45000000,90.0,74001294,2016.5,HOSE,Information_Technology
+SMC,CTCP Đầu tư Thương mại SMC                        ,30/10/2006,6000000,32.0,73165151,1379.3,HOSE,Materials
+BCC,CTCP Xi măng Bỉm Sơn                        ,24/11/2006,90000000,18.7,123209812,1798.9,HNX,Materials_and_Constructions
+TNH,Công ty Cổ phần Bệnh viện Quốc tế Thái Nguyên,06/01/2021,41500000,25.0,51874998,2069.8,HOSE,HealthCare
+EVS,CTCP Chứng khoán Everest,01/08/2018,60000000,12.0,60000400,1380.0,HNX,Financial_Services
+BVS,CTCP Chứng khoán Bảo Việt                        ,18/12/2006,15000000,299.5,72233937,1683.1,HNX,Financial_Services
+TTA,Công ty Cổ phần Đầu tư Xây dựng và Phát triển Trường Thành,21/09/2020,135000000,21.6,145799904,1713.1,HOSE,Utilities
+BFC,CTCP Phân bón Bình Điền                        ,07/10/2015,47640000,26.0,57167993,1523.5,HOSE,Chemicals
+CKG,CTCP Tập đoàn Tư vấn Đầu tư và Xây dựng Kiên Giang,25/03/2020,50000000,11.0,86599781,2416.1,HOSE,Retails_and_Desci
+NTL,CTCP Phát triển Đô thị Từ Liêm                        ,21/12/2007,8200000,225.0,58379900,1610.1,HOSE,Industry_Real_Estate
+CSC,CTCP Tập đoàn COTANA                        ,04/11/2009,2500000,46.6,22816275,1620.0,HNX,Res/Com_Real_Estate
+C4G,CTCP Tập đoàn CIENCO4,10/12/2018,100000000,14.0,112359101,1483.1,UPCOM,Materials_and_Constructions
+CMX,CTCP Camimex Group                        ,09/11/2010,11496797,15.0,90817502,1325.9,HOSE,Fisheries_Industry
+TSC,CTCP Vật tư Kỹ thuật nông nghiệp Cần Thơ                        ,04/10/2007,8312915,40.0,196858925,1456.8,HOSE,Food_Beverage_and_Agriculture
+CTF,CTCP City Auto,30/05/2017,18000000,12.0,72397776,1448.0,HOSE,Retails_and_Desci
+LAS,CTCP Supe Phốt phát và Hóa chất Lâm Thao                        ,01/03/2012,54050000,17.0,112856400,1613.8,HNX,Chemicals
+DCL,CTCP Dược phẩm Cửu Long                        ,17/09/2008,8096540,77.0,73041030,1826.0,HOSE,HealthCare
+TDC,CTCP Kinh doanh và Phát triển Bình Dương                        ,04/05/2010,20000000,30.0,100000000,2300.0,HOSE,Materials_and_Constructions
+APG,CTCP Chứng khoán APG                        ,05/04/2010,13500000,15.7,146306612,1144.1,HOSE,Financial_Services
+IBC,CTCP Đầu tư Apax Holdings,25/10/2016,6301060,10.0,83150661,1613.1,HOSE,Financial_Services
+DLG,CTCP Tập đoàn Đức Long Gia Lai                        ,22/06/2010,29100000,25.0,299309720,1212.2,HOSE,Res/Com_Real_Estate
+APS,CTCP Chứng khoán Châu Á Thái Bình Dương                        ,19/04/2010,26000000,14.8,78000000,1302.6,HNX,Financial_Services
+NRC,CTCP Bất động sản Netland,05/04/2018,12000000,21.0,84188686,1262.8,HNX,Res/Com_Real_Estate
+D2D,CTCP Phát triển Đô thị Công nghiệp số 2                        ,14/08/2009,10700000,40.0,30214726,1189.2,HOSE,Industry_Real_Estate
+ACL,CTCP Xuất nhập khẩu Thủy sản Cửu Long An Giang                        ,05/09/2007,9000000,81.0,50159019,973.1,HOSE,Fisheries_Industry
+TLH,CTCP Tập đoàn Thép Tiến Lên                        ,16/03/2010,54000000,30.0,99190621,1011.5,HOSE,Materials
+G36,Tổng Công ty 36 - CTCP,26/12/2016,43000000,10.5,101756575,1027.7,UPCOM,Materials_and_Constructions
+IDJ,CTCP Đầu tư IDJ Việt Nam                        ,13/09/2010,32600000,17.2,73512976,1220.3,HNX,Res/Com_Real_Estate
+TVB,CTCP Chứng khoán Trí Việt                        ,18/06/2015,9600000,8.5,112015461,918.5,HOSE,Financial_Services
+TVC,CTCP Tập đoàn Quản lý Tài sản Trí Việt,23/09/2014,6900000,0.0,103618170,953.2,HNX,Financial_Services
+SBS,CTCP Chứng khoán Ngân hàng Sài Gòn Thương Tín                        ,05/07/2010,110000000,38.0,126311160,1253.9,UPCOM,Financial_Services
+HAX,CTCP Dịch vụ Ô tô Hàng Xanh                        ,26/12/2006,1625730,35.0,49516982,1267.6,HOSE,Retails_and_Desci
+ABS,CTCP Dịch vụ Nông nghiệp Bình Thuận,18/03/2020,28800000,10.8,80000000,1004.0,HOSE,HealthCare
+VNE,Tổng Công ty cổ phần Xây dựng Điện Việt Nam                        ,09/08/2007,32000000,65.0,87235113,1026.0,HOSE,Materials_and_Constructions
+ITC,CTCP Đầu tư và Kinh doanh Nhà                        ,19/10/2009,23028896,55.0,86773707,1247.2,HOSE,Res/Com_Real_Estate
+NHA,Tổng Công ty Đầu tư Phát triển Nhà và Đô thị Nam Hà Nội                        ,13/07/2010,5890000,45.5,42174520,1130.3,HOSE,Materials_and_Constructions
+EVG,CTCP Tập đoàn EverLand,08/06/2017,30000000,11.8,215249836,1549.8,HOSE,Materials_and_Constructions
+VGS,CTCP Ống thép Việt Đức VG PIPE                        ,04/12/2008,7000000,17.4,42111589,728.5,HNX,Materials
+DRH,CTCP DRH Holdings                        ,26/07/2010,14990000,17.0,124353866,1110.5,HOSE,Industry_Real_Estate
+VPH,CTCP Vạn Phát Hưng                        ,09/09/2009,20083285,30.0,95357800,831.5,HOSE,Res/Com_Real_Estate

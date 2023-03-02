@@ -1,0 +1,8 @@
+initial_equity: 1000000000
+per_cash: 0.15
+commission: 0.0015
+buy_prob_threshold: 0.3
+sell_prob_threshold: 0.3
+start_backtest: "2021-01-01"
+end_backtest: "2021-12-06"
+max_stocks: 5

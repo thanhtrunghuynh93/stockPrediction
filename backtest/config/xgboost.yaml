@@ -1,0 +1,24 @@
+project_name: stocks-prediction-test
+weight_run_name: xgboost
+model: xgboost
+run_name: VN30-backtest
+interval: 1day
+target_col: trend
+medium_period: 10
+slow_period: 20
+fast_period: 5
+indicators:
+  - close_ratio
+  - close_sma
+  - volume_ratio              
+  - volume_sma 
+  - atr
+  - adx 
+  - rsi 
+  - MACD
+  - boll
+initial_equity: 1000000000
+per_cash: 0.15
+commission: 0.0015
+start_backtest: "2021-01-11"
+end_backtest: "2021-11-25"
