@@ -124,11 +124,13 @@ def processFA(stock_list, stock_infos, basicFA, trailing_quarter, trailing_year,
     columns = ["ticker", "full_ticker", "institutionalOwnership", "ROE", "ROE_average", "ROE_growth", "RGCQ", "RGPQ", "RGQA", "PGCQ", "PGPQ", "PGQA", "RGCY", "RGPY", "RGYA", "PGCY", "PGPY", "PGYA"]
 
     trailing_quarter = trailing_quarter.reset_index()
-    trailing_quarter["quarter_year"] = "Q" + trailing_quarter["quarter"].astype(str) + "/" + trailing_quarter["year"].astype(str)
-    trailing_quarter = trailing_quarter.set_index(["ticker", "quarter_year"])
+    # trailing_quarter["quarter_year"] = "Q" + trailing_quarter["quarter"].astype(str) + "/" + trailing_quarter["year"].astype(str)
+    trailing_quarter["quy_nam"] = "Q" + trailing_quarter["quy"].astype(int).astype(str) + "/" + trailing_quarter["nam"].astype(int).astype(str)
+    trailing_quarter = trailing_quarter.set_index(["ticker", "quy_nam"])
 
     trailing_year = trailing_year.reset_index()
-    trailing_year = trailing_year.set_index(["ticker", "year"])
+    trailing_quarter["nam"] = trailing_quarter["nam"].astype(int).astype(str)
+    trailing_year = trailing_year.set_index(["ticker", "nam"])
 
     for stock in stock_list:
         
@@ -151,10 +153,10 @@ def processFA(stock_list, stock_infos, basicFA, trailing_quarter, trailing_year,
         
         try:
 
-            current_ROE = trailing_quarter.loc[(stock, current_quarter)]["netProfit"] / abs(trailing_quarter.loc[(stock, current_quarter)]["ownerEquity"]) * 100 * 4
-            previous_ROE = trailing_quarter.loc[(stock, previous_quarter)]["netProfit"] / abs(trailing_quarter.loc[(stock, previous_quarter)]["ownerEquity"]) * 100 * 4
-            p_previous_ROE = trailing_quarter.loc[(stock, p_previous_quarter)]["netProfit"] / abs(trailing_quarter.loc[(stock, p_previous_quarter)]["ownerEquity"]) * 100 * 4
-            pp_previous_ROE = trailing_quarter.loc[(stock, pp_previous_quarter)]["netProfit"] / abs(trailing_quarter.loc[(stock, pp_previous_quarter)]["ownerEquity"]) * 100 * 4
+            current_ROE = trailing_quarter.loc[(stock, current_quarter)]["loi_nhuan_sau_thue"] / abs(trailing_quarter.loc[(stock, current_quarter)]["von_chu_so_huu"]) * 100 * 4
+            previous_ROE = trailing_quarter.loc[(stock, previous_quarter)]["loi_nhuan_sau_thue"] / abs(trailing_quarter.loc[(stock, previous_quarter)]["von_chu_so_huu"]) * 100 * 4
+            p_previous_ROE = trailing_quarter.loc[(stock, p_previous_quarter)]["loi_nhuan_sau_thue"] / abs(trailing_quarter.loc[(stock, p_previous_quarter)]["von_chu_so_huu"]) * 100 * 4
+            pp_previous_ROE = trailing_quarter.loc[(stock, pp_previous_quarter)]["loi_nhuan_sau_thue"] / abs(trailing_quarter.loc[(stock, pp_previous_quarter)]["von_chu_so_huu"]) * 100 * 4
 
             average_ROE = (current_ROE * 4 + previous_ROE * 3 + p_previous_ROE * 2 + pp_previous_ROE) / 10
 
@@ -162,21 +164,21 @@ def processFA(stock_list, stock_infos, basicFA, trailing_quarter, trailing_year,
             res.append(average_ROE)
             res.append(current_ROE / previous_ROE - 1)
 
-            revenue_growth_current_quarter = trailing_quarter.loc[(stock, current_quarter)]["sales"] / trailing_quarter.loc[(stock, last_current_quarter)]["sales"] - 1
-            revenue_growth_previous_quarter = trailing_quarter.loc[(stock, previous_quarter)]["sales"] / trailing_quarter.loc[(stock, last_previous_quarter)]["sales"] - 1
+            revenue_growth_current_quarter = trailing_quarter.loc[(stock, current_quarter)]["tong_doanh_thu"] / trailing_quarter.loc[(stock, last_current_quarter)]["tong_doanh_thu"] - 1
+            revenue_growth_previous_quarter = trailing_quarter.loc[(stock, previous_quarter)]["tong_doanh_thu"] / trailing_quarter.loc[(stock, last_previous_quarter)]["tong_doanh_thu"] - 1
             revenue_growth_quarter_acceleration = (revenue_growth_current_quarter - revenue_growth_previous_quarter) / abs(revenue_growth_previous_quarter)
 
-            profit_growth_current_quarter = trailing_quarter.loc[(stock, current_quarter)]["netProfit"] / trailing_quarter.loc[(stock, last_current_quarter)]["netProfit"] - 1
-            profit_growth_previous_quarter = trailing_quarter.loc[(stock, previous_quarter)]["netProfit"] / trailing_quarter.loc[(stock, last_previous_quarter)]["netProfit"] - 1
+            profit_growth_current_quarter = trailing_quarter.loc[(stock, current_quarter)]["loi_nhuan_sau_thue"] / trailing_quarter.loc[(stock, last_current_quarter)]["loi_nhuan_sau_thue"] - 1
+            profit_growth_previous_quarter = trailing_quarter.loc[(stock, previous_quarter)]["loi_nhuan_sau_thue"] / trailing_quarter.loc[(stock, last_previous_quarter)]["loi_nhuan_sau_thue"] - 1
             profit_growth_quarter_acceleration = (profit_growth_current_quarter - profit_growth_previous_quarter) / abs(profit_growth_previous_quarter)
             
-#             print("Revenue growth current quarter: {:.3f}%".format(revenue_growth_current_quarter * 100))
-#             print("Revenue growth previous quarter: {:.3f}%".format(revenue_growth_previous_quarter * 100))
-#             print("Revenue growth quarter acceleration: {:.3f}%".format(revenue_growth_quarter_acceleration * 100))
+    #             print("Revenue growth current quarter: {:.3f}%".format(revenue_growth_current_quarter * 100))
+    #             print("Revenue growth previous quarter: {:.3f}%".format(revenue_growth_previous_quarter * 100))
+    #             print("Revenue growth quarter acceleration: {:.3f}%".format(revenue_growth_quarter_acceleration * 100))
 
-#             print("Profit growth current quarter: {:.3f}%".format(profit_growth_current_quarter * 100))
-#             print("Profit growth previous quarter: {:.3f}%".format(profit_growth_previous_quarter * 100))
-#             print("Profit growth quarter acceleration: {:.3f}%".format(profit_growth_quarter_acceleration * 100))
+    #             print("Profit growth current quarter: {:.3f}%".format(profit_growth_current_quarter * 100))
+    #             print("Profit growth previous quarter: {:.3f}%".format(profit_growth_previous_quarter * 100))
+    #             print("Profit growth quarter acceleration: {:.3f}%".format(profit_growth_quarter_acceleration * 100))
 
             res = res + [revenue_growth_current_quarter, revenue_growth_previous_quarter, revenue_growth_quarter_acceleration, profit_growth_current_quarter, profit_growth_previous_quarter, profit_growth_quarter_acceleration]
 
@@ -184,21 +186,21 @@ def processFA(stock_list, stock_infos, basicFA, trailing_quarter, trailing_year,
             prev_year = int(years[-2])
             prev_two_year = int(years[-3])
 
-            revenue_growth_current_year = trailing_year.loc[(stock, current_year)]["sales"] / trailing_year.loc[(stock, prev_year)]["sales"] - 1    
-            revenue_growth_previous_year = trailing_year.loc[(stock, prev_year)]["sales"] / trailing_year.loc[(stock, prev_two_year)]["sales"] - 1
+            revenue_growth_current_year = trailing_year.loc[(stock, current_year)]["tong_doanh_thu"] / trailing_year.loc[(stock, prev_year)]["tong_doanh_thu"] - 1    
+            revenue_growth_previous_year = trailing_year.loc[(stock, prev_year)]["tong_doanh_thu"] / trailing_year.loc[(stock, prev_two_year)]["tong_doanh_thu"] - 1
             revenue_growth_year_acceleration = (revenue_growth_current_year - revenue_growth_previous_year) / abs(revenue_growth_previous_year)
 
-            profit_growth_current_year = trailing_year.loc[(stock, current_year)]["netProfit"] / trailing_year.loc[(stock, prev_year)]["netProfit"] - 1    
-            profit_growth_previous_year = trailing_year.loc[(stock, prev_year)]["netProfit"] / trailing_year.loc[(stock, prev_two_year)]["netProfit"] - 1
+            profit_growth_current_year = trailing_year.loc[(stock, current_year)]["loi_nhuan_sau_thue"] / trailing_year.loc[(stock, prev_year)]["loi_nhuan_sau_thue"] - 1    
+            profit_growth_previous_year = trailing_year.loc[(stock, prev_year)]["loi_nhuan_sau_thue"] / trailing_year.loc[(stock, prev_two_year)]["loi_nhuan_sau_thue"] - 1
             profit_growth_year_acceleration = (profit_growth_current_year - profit_growth_previous_year) / abs(profit_growth_previous_year)
             
-#             print("Revenue growth current year: {:.3f}%".format(revenue_growth_current_year * 100))
-#             print("Revenue growth previous year: {:.3f}%".format(revenue_growth_previous_year * 100))
-#             print("Revenue growth year acceleration: {:.3f}%".format(revenue_growth_year_acceleration * 100))
+    #             print("Revenue growth current year: {:.3f}%".format(revenue_growth_current_year * 100))
+    #             print("Revenue growth previous year: {:.3f}%".format(revenue_growth_previous_year * 100))
+    #             print("Revenue growth year acceleration: {:.3f}%".format(revenue_growth_year_acceleration * 100))
 
-#             print("Profit growth current year: {:.3f}%".format(profit_growth_current_year * 100))
-#             print("Profit growth previous year: {:.3f}%".format(profit_growth_previous_year * 100))
-#             print("Profit growth year acceleration: {:.3f}%".format(profit_growth_year_acceleration * 100))
+    #             print("Profit growth current year: {:.3f}%".format(profit_growth_current_year * 100))
+    #             print("Profit growth previous year: {:.3f}%".format(profit_growth_previous_year * 100))
+    #             print("Profit growth year acceleration: {:.3f}%".format(profit_growth_year_acceleration * 100))
 
             res = res + [revenue_growth_current_year, revenue_growth_previous_year, revenue_growth_year_acceleration, profit_growth_current_year, profit_growth_previous_year, profit_growth_year_acceleration]
 

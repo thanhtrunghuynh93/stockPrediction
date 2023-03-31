@@ -82,8 +82,6 @@ def getFinancialReport(ticker, start_quarter = 2, start_year = 2014, end_quarter
     endpoint = "{}/financial/financial_data".format(host)  
     res = requests.post(endpoint, json = payload)
 
-    print(res)
-
     if res.status_code != 200:
       print("Error loading quarter report for {} with status code {}".format(ticker, res.status_code))
       return None
@@ -100,8 +98,8 @@ def getFinancialReport(ticker, start_quarter = 2, start_year = 2014, end_quarter
     df = pd.DataFrame(res)
     df["ticker"] = ticker
     if mode == "quarter":
-        df["quarter"] = df["quarter"].astype(int)
-    df["year"] = df["year"].astype(int)
+        df["quarter"] = df["quy"].astype(int)
+    df["year"] = df["nam"].astype(int)
     
     return df
 
@@ -144,12 +142,13 @@ if __name__ == '__main__':
     stock_list = np.load(args.source_file, allow_pickle = True)
     stock_infos = pd.read_csv(args.info_file, index_col = "ticker")
 
-    basic_FA = getBasicFA(stock_list)
-    trailing_quarter_report = getFinancialReports(stock_list, args.start_quarter, args.start_year, args.end_quarter, args.end_year, mode = "quarter")
-    trailing_year_report = getFinancialReports(stock_list, args.start_quarter, args.start_year, args.end_quarter, args.end_year, mode = "year")
+    # basic_FA = getBasicFA(stock_list)
+    # basic_FA.to_csv(args.target_folder + "/basic_FA.csv")
 
-    basic_FA.to_csv(args.target_folder + "/basic_FA.csv")
-    trailing_quarter_report.to_csv(args.target_folder + "/trailing_quarter_report.csv")
+    # trailing_quarter_report = getFinancialReports(stock_list, args.start_quarter, args.start_year, args.end_quarter, args.end_year, mode = "quarter")
+    # trailing_quarter_report.to_csv(args.target_folder + "/trailing_quarter_report.csv")
+    
+    trailing_year_report = getFinancialReports(stock_list, args.start_quarter, args.start_year, args.end_quarter, args.end_year, mode = "year")    
     trailing_year_report.to_csv(args.target_folder + "/trailing_year_report.csv")
 
 

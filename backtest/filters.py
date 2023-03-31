@@ -54,8 +54,9 @@ class FilterFactory():
                 print(stock)
                 price_estimation_insight = self.price_estimator.loc[stock]
                 for quarter in self.trade_quarters:     
-                    max_price = float(price_estimation_insight[quarter][1])        
-                    min_price = float(price_estimation_insight[quarter][0])        
+
+                    max_price = float(price_estimation_insight[price_estimation_insight["name"] == "estimated_price_high"][quarter][0])        
+                    min_price = float(price_estimation_insight[price_estimation_insight["name"] == "estimated_price_low"][quarter][0])        
                     days_in_quarter = self.trade_quarters_days[quarter]
                     self.env_df.loc[(days_in_quarter, stock), ['max_intrinsic_value']] = max_price
                     self.env_df.loc[(days_in_quarter, stock), ['min_intrinsic_value']] = min_price

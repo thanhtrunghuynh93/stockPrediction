@@ -12,6 +12,21 @@ def get_ratio(x, y):
     # return (x - y) / abs(y + epsilon)
     return x / abs(y + epsilon) - 1
 
+def supertrend(df, features):
+
+    muls = [3, 2]
+    windows = [12, 11]
+
+    for i in range(len(windows)):
+        Sdf.SUPERTREND_MUL = muls[i]
+        Sdf.SUPERTREND_WINDOW = windows[i]
+        stockstat = Sdf.retype(df.copy())
+        df['supertrend_{}'.format(windows[i])] = stockstat['supertrend'] 
+        df['supertrend_{}_r'.format(windows[i])] = df['supertrend_{}'.format(windows[i])] / df['close']
+        features.extend(['supertrend_{}_r'.format(windows[i])])
+
+    return df, features
+
 def close_ratio(df, features, periods):
     stockstat = Sdf.retype(df.copy())    
 
@@ -384,6 +399,10 @@ def add_indicators(source_df, indicators, periods = [10, 20], trend_ahead = 5, t
 
     if "psar" in indicators:
         df, features = psar(df, features)
+
+    if "supertrend" in indicators:
+        df, features = supertrend(df, features)
+
 
     df, features = arithmetic_returns(df, features)
     df = add_trend(df, trend_ahead, trend_up_threshold, trend_down_threshold)

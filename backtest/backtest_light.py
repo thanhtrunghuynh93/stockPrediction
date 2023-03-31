@@ -17,7 +17,7 @@ from preprocess.dataloader import prepare_env_df, prepare_env_df_datetime_indexi
 
 class Backtest():
 
-    def __init__(self, env_df, stock_info, preds, filters = [], max_number_of_stock = 5, commission = 0.0015, buy_thresholds = None, sell_thresholds = None, stop_loss = 0.07, initial_budget = 1000000000, min_num_share_per_purchase = 100, t_delay = 3, setting = "regression", ta_score_threshold = 9, is_unique_category_in_portfolio = True):
+    def __init__(self, env_df, stock_info, preds, filters = [], max_number_of_stock = 5, commission = 0.0015, buy_thresholds = None, sell_thresholds = None, stop_loss = 0.07, initial_budget = 1000000000, min_num_share_per_purchase = 100, t_delay = 3, setting = "regression", ta_score_threshold = 4, intrinsic_mos = 0.4):
         
         self.env_df = env_df
         self.stock_info = stock_info
@@ -31,7 +31,7 @@ class Backtest():
         self.min_num_share_per_purchase = min_num_share_per_purchase
         self.t_delay = t_delay
         self.setting = setting
-        self.is_unique_category_in_portfolio = is_unique_category_in_portfolio
+        # self.is_unique_category_in_portfolio = is_unique_category_in_portfolio
 
         self.trade_sessions = self.env_df["date"].unique()
         self.ticker_symbols = self.env_df["symbol"].unique()
@@ -46,7 +46,7 @@ class Backtest():
         self.high_prices = env_df["high"].to_numpy().reshape(len(self.ticker_symbols), -1)
         self.open_prices = env_df["open"].to_numpy().reshape(len(self.ticker_symbols), -1)
 
-        self.filter = FilterFactory(filters, env_df, stock_info, ta_score_threshold = ta_score_threshold)
+        self.filter = FilterFactory(filters, env_df, stock_info, ta_score_threshold = ta_score_threshold, intrinsic_mos = intrinsic_mos)
 
         self.transaction_history_storage = []
         self.final_num_win_trades = []

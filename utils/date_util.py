@@ -119,6 +119,11 @@ def get_data_by_symbol_and_date(symbol, start_date, end_date, offset=0):
     return df_data
 
 def generate_quarters(start_quarter = 3, start_year = 2016, end_quarter = 2, end_year = 2022):
+
+    if (start_quarter > end_quarter) and (start_year >= end_year):
+        print("Wrong input for generate quarters")
+        return []
+
     current_quarter = start_quarter
     current_year = start_year
     quarters = []

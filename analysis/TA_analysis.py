@@ -1,7 +1,7 @@
 import numpy as np
 
-criteria = ["ta_candle_shape", "ta_vol", "ta_ma5", "ta_rs", "ta_rs_change", "ta_MACD", "ta_rsi", "ta_stability", "ta_boll_width", "ta_psar"]
-criteria_coeff = [1, 1, 0, 0, 1, 1, 0, 0, 0, 1]
+criteria = ["ta_candle_shape", "ta_vol", "ta_ma5", "ta_rs", "ta_rs_change", "ta_MACD", "ta_rsi", "ta_stability", "ta_boll_width", "ta_psar", "ta_supertrend"]
+criteria_coeff = [1, 1, 0, 0, 1, 1, 0, 0, 0, 1, 1]
 
 class TA_analysis:
 
@@ -25,6 +25,7 @@ class TA_analysis:
         df["ta_stability"] = df["stability"] < 0.05
         df["ta_boll_width"] = df["boll_width_change"] < 0
         df["ta_psar"] = df["PSAR_trend"] == 1
+        df["ta_supertrend"] = (df["supertrend_11"] < 1) & (df["supertrend_12"] < 1)
 
         df["TA_score"] = 0
 
